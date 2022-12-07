@@ -5,36 +5,28 @@ while :
 do
     clear
     cat ./frame/gameStart.txt
+    echo ""
     read -p "enter: " NUM
-    if [ $NUM -eq 1 ]; then
-        clear
-        cat ./frame/gameScreen.txt 
-    fi
-
+    clear
+    cat ./frame/gameScreen.txt 
+    echo ""
     read -p "enter: " NUM1
-    if [ $NUM1 -eq 1 ]; then
-        clear
-        cat ./frame/gameScreen.txt
-    fi
-
+    clear
+    cat ./frame/gameScreen.txt
+    echo ""
     read -p "enter: " NUM2
-    if [ $NUM2 -eq 1 ]; then
-        clear
-        cat ./frame/gameScreen2.txt
-    fi
-
+    clear
+    cat ./frame/gameScreen2.txt
+    echo ""
     read -p"enter: " NUM3
-    if [ $NUM3 -eq 1 ]; then
-        clear
-        cat ./frame/gameScreen3.txt
-    fi
-
+    clear
+    cat ./frame/gameScreen3.txt
+    echo ""
     read -p "enter: " NUM4
-    if [ $NUM4 -eq 1 ]; then
-        clear
-        cat ./frame/gameScreen4.txt
-        read
-    fi
+    clear
+    cat ./frame/gameScreen4.txt
+    echo ""
+    read
 done
 
 
